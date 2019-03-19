@@ -7,6 +7,8 @@
 public class Robbery {
 
 	// Using DP: Get the maximum value with capacity C and n items
+	//i'm not sure but maybe I may need another array to hold the value density of the worth/size
+	//then ill need a a function to populate the array or something 
 	public int maximizeRobWorthRecur(
 		int capacity,
 		int[] sizes,
